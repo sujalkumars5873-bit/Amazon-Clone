@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border:border-box;
+}                                                   
+                                                   /* navbar */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logoborder{
+    height:50px;
+    width: 100px;
+    margin: 1px;
+
+}
+.logo{
+    background-image:url(amazon\ logo.png);
+    background-size: cover;
+    padding-left: 6px;
+    padding-right: 8px;
+    padding-top: px;
+    margin: 1;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+
+/**second box**/
+
+
+
+.nav-address{
+    margin-left:20px;
+    margin-top:11px;
+    margin-bottom: 10px;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 20px;
+
+}
+
+.add-second{
+    color: #ffffff;
+
+}
+
+.add-icon{
+    display: flex;
+}
+
+
+/**box 3**/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#f59d29;
+    height: 40px;
+    width:850px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.nav-search:hover{
+    border: 2px solid #f8930e;
+}
+
+.select-search{
+    background-color: #e6e6e6;
+    width: 45px;
+    text-align: center;
+    padding-left: 2px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+
+.search-input{
+    width:100%;
+    border: none;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 45px;
+    text-align: center;
+    padding-top: 12px;
+    color: #0f1111;
+}
+
+
+/* box4 */
+
+span{
+    font-size: .75rem;
+}
+
+.nav-second{
+    font-size: .95rem;
+    font-weight:600;
+}
+
+/* box5 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+                                          /* panel */
+                                        
+.panel{
+    display: flex;
+    border: transparent;
+    align-items: center;
+    height: 39px;
+    background-color: #232f3e;
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 11px;
+}
+
+.panel-ops p{
+    display: inline;
+    margin: 5px 0 6px 0;
+    padding: 8px 5px;
+}
+
+.panel-all{
+    font-family: inherit;
+    align-items: center;
+    padding: 9px;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.panel-all i{
+    position: static;
+    font-size: 20px;
+    
+}
