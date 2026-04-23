@@ -161,3 +161,28 @@ span{
     font-size: 20px;
     
 }
+                                                  /* hero-section */
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+    display: flex;
+    background-size: cover;
+    height: 325px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-msg{
+    background-color: #f5f6f6;
+    font-size: 14px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 10px 14px;
+    height: 22px;
+}
+
+.hero-msg a{
+    color: #2162a2;
+}
