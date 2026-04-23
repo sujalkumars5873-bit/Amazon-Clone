@@ -1,3 +1,3 @@
 # Amazon-Clone
 <br>
-Amazon Clone
+Clone of Amazon.com(HTML/CSS)
