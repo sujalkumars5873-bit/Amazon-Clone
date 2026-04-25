@@ -3,4 +3,4 @@
 Clone of Amazon.com(HTML/CSS)
 <br>
 Demo link:-
-https://glittering-puffpuff-189505.netlify.app/
+https://amazon-clone-full.netlify.app/
